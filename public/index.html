@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>WebRTC Demo</title>
+  <title>SPYKE</title>
   <style>
     body {
       margin: 0;
@@ -18,7 +18,15 @@
     h2 {
       color: #fff;
       margin-bottom: 32px;
-      text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      text-shadow: 0 2px 8px #00bcf2, 0 2px 8px rgba(0,0,0,0.15);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 2.6rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00bcf2 0%, #0078d7 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      
     }
     .video-container {
       display: flex;
@@ -63,7 +71,7 @@
   </style>
 </head>
 <body>
-  <h2>Chamada entre 2 usuários</h2>
+  <h2>SPYKE</h2>
   <div class="video-container">
     <video id="localVideo" autoplay playsinline muted></video>
     <video id="remoteVideo" autoplay playsinline></video>

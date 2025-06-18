@@ -3,7 +3,7 @@ const remoteVideo = document.getElementById("remoteVideo");
 const startBtn = document.getElementById("startBtn");
 const callBtn = document.getElementById("callBtn");
 
-const socket = io(); // Conecta ao servidor Socket.IO
+const socket = io(); 
 let localStream;
 let peerConnection;
 
